@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: Sinosans;
+  src: url("/fonts/SinosansRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: Syne;
+  src: url("/fonts/syne.ttf") format("opentype");
+}
+@font-face {
+  font-family: Signature;
+  src: url("/fonts/SignatureDecember.otf") format("opentype");
+}
