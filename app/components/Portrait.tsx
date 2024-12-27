@@ -2,10 +2,10 @@ const Portrait = () => {
     return (
         <div className='relative w-full border-2 border-black rounded-md'>
 
-            <div className='h-full bg-[#FFD299] rounded-[4px] flex flex-col p-6'>
-                <img src="/public/potrait.jpg" alt="Ashesh Bandopadhyay | Benediction Potrait" className="w-full rounded-md" />
+            <div className='h-full bg-[#FFD299] rounded-[4px] flex flex-col p-8'>
+                <img src="/potrait.jpg" alt="Ashesh Bandopadhyay | Benediction Potrait" className="w-full rounded-md" />
 
-                <h1 className="text-black font-[Signature] text-[8px] pt-6 text-center">~ We are supposed to change ~</h1>
+                <h1 className="text-black font-[Signature] text-[10px] pt-8 text-center">We are supposed to change</h1>
             </div>
 
 
