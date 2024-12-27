@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Header = () => {
     const getCurrentDate = () => {
         const today = new Date();
@@ -11,23 +9,23 @@ const Header = () => {
 
     return (
         <div className='text-black flex flex-col h-full'>
-            <div className='h-1/2 flex border-2 border-red-500'>
+            <div className='h-1/2 flex'>
                 <div className='relative'>
-                    <h1 className='font-[Sinosans] text-xl pt-4'>Date: </h1>
+                    <h1 className='font-[Sinosans] text-xl pt-5'>Date: </h1>
                     <span className='h-[2px] w-full bg-black absolute bottom-0'></span>
                 </div>
                 <div className='relative'>
-                    <h1 className='font-[Signature] pt-4 px-12'>{getCurrentDate()}</h1>
+                    <h1 className='font-[Signature] pt-5 px-12'>{getCurrentDate()}</h1>
                     <span className='h-[2px] w-full bg-black absolute bottom-0'></span>
                 </div>
             </div>
-            <div className='h-1/2 flex border-2 border-red-500'>
+            <div className='h-1/2 flex'>
                 <div className='relative'>
-                    <h1 className='font-[Sinosans] text-xl pt-4'>Project: </h1>
+                    <h1 className='font-[Sinosans] text-xl pt-5'>Project: </h1>
                     <span className='h-[2px] w-full bg-black absolute bottom-0'></span>
                 </div>
                 <div className='relative'>
-                    <h1 className='font-[Signature] pt-4 px-12'>Portfolio</h1>
+                    <h1 className='font-[Signature] pt-5 px-12'>Portfolio</h1>
                     <span className='h-[2px] w-full bg-black absolute bottom-0'></span>
                 </div>
             </div>
