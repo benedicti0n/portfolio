@@ -1,4 +1,4 @@
-const Potrait = () => {
+const Portrait = () => {
     return (
         <div className='relative w-full border-2 border-black rounded-md'>
 
@@ -15,4 +15,4 @@ const Potrait = () => {
     )
 }
 
-export default Potrait
+export default Portrait
