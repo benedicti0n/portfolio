@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Container = () => {
     return (
         <div className='relative w-80 border-2 border-blue-300 rounded-md flex flex-col'>
