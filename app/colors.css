@@ -1,4 +1,10 @@
 .colors {
   canvas-color: #f6eee3;
   dotgrid-color: #bbbbbb;
+  potraitbg-color: #ffd299;
+  potraitbg-undershadow-color: #2c2c2c;
+
+  navitems-colors: #ea93d3;
+  navitems-colors: #af89f2;
+  navitems-colors: #689f63;
 }
