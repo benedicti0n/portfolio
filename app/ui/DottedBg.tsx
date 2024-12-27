@@ -1,9 +1,6 @@
-import React, { ReactNode } from "react";
-
-function DottedBg({ children }: { children: ReactNode }) {
+function DottedBg() {
     return (
-        <div className="h-full z-10 w-full bg-dot-black relative flex items-center justify-center">
-            {children}
+        <div className="h-full w-full z-10 bg-dot-black relative flex items-center justify-center">
         </div>
     );
 }
