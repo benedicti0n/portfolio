@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import Canvas from "~/ui/Canvas";
 import DottedBg from "~/ui/DottedBg";
 import Header from "~/ui/Header";
 
@@ -13,23 +12,23 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <Canvas>
-        <div className="border-2 border-red-600 w-full flex">
-          <div className="border-2 border-cyan-500 w-1/2">
-            <h1 className="text-black text-5xl font-[Sinosans]">Ashesh</h1>
-            <h1 className="text-black text-5xl font-[Sinosans]">Bandopadhyay</h1>
-          </div>
+    <div className="w-full h-screen flex flex-col justify-center items-center bg-[#F6EEE3] px-16 py-12">
 
-          <div className="border-2 border-emerald-500 w-1/2 flex justify-end">
-            <Header />
-          </div>
+      <div className="w-full flex">
+        <div className="w-1/2">
+          <h1 className="text-black text-5xl font-[Sinosans]">Ashesh</h1>
+          <h1 className="text-black text-5xl font-[Sinosans]">Bandopadhyay</h1>
         </div>
 
-        <DottedBg>
-          hi
-        </DottedBg>
-      </Canvas>
+        <div className="w-1/2 flex justify-end">
+          <Header />
+        </div>
+      </div>
+
+      <div className="h-full w-full py-6">
+        <DottedBg />
+      </div>
+
     </div >
   );
 }
