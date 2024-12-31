@@ -23,7 +23,7 @@ export const CrumbledHighlight: React.FC<CrumbedHighlightProps> = ({
     return (
         <span className={`relative inline-block ${className}`}>
             <svg
-                className="absolute inset-0 w-full h-full"
+                className="absolute inset-0 w-full h-full top-1 left-1"
                 viewBox="0 0 100 100"
                 preserveAspectRatio="none"
                 aria-hidden="true"
@@ -37,7 +37,7 @@ export const CrumbledHighlight: React.FC<CrumbedHighlightProps> = ({
                         <path d={path} fill="white" filter={`url(#${filterId})`} />
                     </mask>
                 </defs>
-                <rect width="100" height="100" fill={color} mask={`url(#${maskId})`} />
+                <rect width="100" height="100" fill={color} opacity={0.5} mask={`url(#${maskId})`} />
             </svg>
             <span className="relative z-10">{children}</span>
         </span>
