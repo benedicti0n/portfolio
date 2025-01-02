@@ -2,10 +2,9 @@ import type { MetaFunction } from "@remix-run/node";
 import DottedBg from "~/ui/DottedBg";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
-import Portrait from "~/components/Portrait";
-import NavButtons from "~/components/NavButtons";
-// import BentoItem from "~/components/BentoItem";
-import BuyMeKofi from "~/components/BuyMeKofi";
+import Portrait from "~/components/SideSection/Portrait";
+import NavButtons from "~/components/SideSection/NavButtons";
+import BuyMeKofi from "~/components/SideSection/BuyMeKofi";
 import Heading from "~/components/Heading";
 
 export const meta: MetaFunction = () => {
