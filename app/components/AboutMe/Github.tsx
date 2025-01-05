@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from "react";
 
 import { Activity, ActivityCalendar } from "react-activity-calendar";
 import { Tooltip as ReactTooltip } from "react-tooltip";
-import "react-tooltip/dist/react-tooltip.css"
+// import "react-tooltip/dist/react-tooltip.css"
 
 type GithubGraphProps = {
   username: string;
@@ -44,6 +44,7 @@ export const GithubGraph = ({
         data={contribution}
         maxLevel={4}
         blockMargin={blockMargin ?? 2}
+        blockSize={7}
         loading={loading}
         labels={label}
         theme={{
@@ -52,9 +53,10 @@ export const GithubGraph = ({
             "#9be9a8",
             "#40c463",
             "#30a14e",
-            "#216e39",
+            "#30a14e",
           ],
         }}
+        style={{ width: "100vw" }}
         renderBlock={(block, activity) => {
           return React.cloneElement(block, {
             'data-tooltip-id': 'react-tooltip',

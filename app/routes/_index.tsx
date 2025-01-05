@@ -5,7 +5,8 @@ import Header from "~/components/Header";
 import Portrait from "~/components/SideSection/Portrait";
 import NavButtons from "~/components/SideSection/NavButtons";
 import BuyMeKofi from "~/components/SideSection/BuyMeKofi";
-import Heading from "~/components/Heading";
+import AboutMyself from "~/components/AboutMe/AboutMyself";
+
 
 export const meta: MetaFunction = () => {
   return [
@@ -28,8 +29,8 @@ export default function Index() {
           <BuyMeKofi />
         </div>
 
-        <div className="w-full h-full ml-6">
-          <Heading heading="LinkedIn" icon="/doodle.svg" color="#5282FF" />
+        <div className="w-full h-full ml-6  items-center">
+          <AboutMyself />
         </div>
 
       </DottedBg>
