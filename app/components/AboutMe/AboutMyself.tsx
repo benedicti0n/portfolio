@@ -1,5 +1,5 @@
 import Intro from "./Intro"
-// import Song from "./Song"
+import Song from "./Song"
 import { GithubGraph } from "./Github"
 
 const AboutMyself = () => {
@@ -10,8 +10,7 @@ const AboutMyself = () => {
 
             </div>
             <div className="col-span-1">
-                {/* <Song /> */}
-                hi
+                <Song />
             </div>
 
             <div className=" col-span-2">
