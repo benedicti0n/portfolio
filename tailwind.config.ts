@@ -8,10 +8,11 @@ const {
 
 export default {
   content: [
-    "./app/**/*.{js,jsx,ts,tsx}",
-    "./app/**/**/*.{js,jsx,ts,tsx}",
-    "./app/*.{js,jsx,ts,tsx}"
+    "./app/**/*.{js,jsx,ts,tsx,css}",
+    "./app/**/**/*.{js,jsx,ts,tsx,css}",
+    "./app/*.{js,jsx,ts,tsx,css}"
   ],
+
   theme: {
     extend: {
       fontFamily: {
