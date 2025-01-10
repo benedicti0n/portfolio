@@ -11,7 +11,7 @@ const Heading: React.FC<PropsTypes> = ({ heading, icon, color }) => {
     return (
         <CrumbledHighlight color={color}>
             <div className="flex relative">
-                {icon && <img src={icon} alt={heading} className="w-8" />}
+                {icon && <img src={icon} alt={heading} className="w-8 rounded-md" />}
                 <h1 className="font-[Sinosans] text-black text-2xl ml-3">{heading}</h1>
             </div>
         </CrumbledHighlight>
