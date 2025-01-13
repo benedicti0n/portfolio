@@ -1,33 +1,33 @@
 /* slider.css */
 .audio-player {
-    width: 100%; /* Make the audio player full width */
+  width: 100%; /* Make the audio player full width */
 }
 
 .custom-slider {
-    -webkit-appearance: none; /* Remove default styling */
-    width: 100%; /* Full width */
-    height: 4px; /* Height of the slider */
-    background: black; /* Background color */
-    border-radius: 99px; /* Rounded corners */
-    outline: none; /* Remove outline */
+  -webkit-appearance: none; /* Remove default styling */
+  width: 100%; /* Full width */
+  height: 4px; /* Height of the slider */
+  background: #9c6644; /* Background color */
+  border-radius: 99px; /* Rounded corners */
+  outline: none; /* Remove outline */
 }
 
 .custom-slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Remove default styling */
-    appearance: none; /* Remove default styling */
-    width: 10px; /* Width of the thumb */
-    height: 10px; /* Height of the thumb */
-    border-radius: 50%; /* Round thumb */
-    background: black; /* Thumb color */
-    cursor: pointer; /* Pointer cursor on hover */
-    border: none;
+  -webkit-appearance: none; /* Remove default styling */
+  appearance: none; /* Remove default styling */
+  width: 10px; /* Width of the thumb */
+  height: 10px; /* Height of the thumb */
+  border-radius: 50%; /* Round thumb */
+  background: #9c6644; /* Thumb color */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: none;
 }
 
 .custom-slider::-moz-range-thumb {
-    width: 10px; /* Width of the thumb */
-    height: 10px; /* Height of the thumb */
-    border-radius: 50%; /* Round thumb */
-    background: black; /* Thumb color */
-    cursor: pointer; /* Pointer cursor on hover */
-    border: none;
+  width: 10px; /* Width of the thumb */
+  height: 10px; /* Height of the thumb */
+  border-radius: 50%; /* Round thumb */
+  background: #9c6644; /* Thumb color */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: none;
 }
