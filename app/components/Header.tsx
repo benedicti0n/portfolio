@@ -8,31 +8,31 @@ const Header = () => {
     }
 
     return (
-        <div className="w-full flex">
+        <div className="w-full flex border-2 border-blue-500">
             <div className="w-1/2">
-                <h1 className="text-black text-5xl font-[Sinosans]">Ashesh</h1>
-                <h1 className="text-black text-5xl font-[Sinosans]">Bandopadhyay</h1>
+                <h1 className="text-black md:text-4xl font-[Sinosans]">Ashesh</h1>
+                <h1 className="text-black md:text-4xl font-[Sinosans]">Bandopadhyay</h1>
             </div>
 
             <div className="w-1/2 flex justify-end">
                 <div className='text-black flex flex-col h-full'>
                     <div className='h-1/2 flex'>
                         <div className='relative'>
-                            <h1 className='font-[Sinosans] text-xl pt-5'>Date: </h1>
+                            <h1 className='font-[Sinosans] md:text-lg pt-5'>Date: </h1>
                             <span className='h-[2px] w-full bg-black absolute bottom-0'></span>
                         </div>
                         <div className='relative'>
-                            <h1 className='font-[Signature] pt-5 px-12'>{getCurrentDate()}</h1>
+                            <h1 className='font-[Signature] md:text-sm pt-6 px-12'>{getCurrentDate()}</h1>
                             <span className='h-[2px] w-full bg-black absolute bottom-0'></span>
                         </div>
                     </div>
                     <div className='h-1/2 flex'>
                         <div className='relative'>
-                            <h1 className='font-[Sinosans] text-xl pt-5'>Project: </h1>
+                            <h1 className='font-[Sinosans] text-lg pt-5'>Project: </h1>
                             <span className='h-[2px] w-full bg-black absolute bottom-0'></span>
                         </div>
                         <div className='relative'>
-                            <h1 className='font-[Signature] pt-5 px-12'>Portfolio</h1>
+                            <h1 className='font-[Signature] md:text-sm pt-5 px-12'>Portfolio</h1>
                             <span className='h-[2px] w-full bg-black absolute bottom-0'></span>
                         </div>
                     </div>
