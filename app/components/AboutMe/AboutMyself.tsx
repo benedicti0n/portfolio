@@ -1,6 +1,7 @@
 import Intro from "./Intro"
 import Song from "./Song"
 import { Github } from "./Github"
+import Twitter from "./Twitter"
 import Youtube from "./Youtube"
 
 const AboutMyself = () => {
@@ -10,7 +11,7 @@ const AboutMyself = () => {
                 <Intro />
             </div>
             <div className="col-span-1 border-2 border-pink-500">
-                Twitter
+                <Twitter />
             </div>
             <div className="col-span-2">
                 <Song />
@@ -26,7 +27,7 @@ const AboutMyself = () => {
 
 
             <div className=" col-span-1">
-                <Youtube username="benedictionAsh03" />
+                {/* <Youtube username="benedictionAsh03" /> */}
             </div>
         </div>
     )
