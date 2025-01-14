@@ -4,6 +4,7 @@ import Heading from "../Heading";
 import FollowButton from "~/ui/FollowButton";
 import { Activity, ActivityCalendar } from "react-activity-calendar";
 import { Tooltip as ReactTooltip } from "react-tooltip";
+import { LuGithub } from "react-icons/lu";
 
 type GithubGraphProps = {
   username: string;
@@ -83,7 +84,11 @@ export const Github = ({
             <h1 className="font-[Syne] text-base ml-6">
               Followers: {githubData?.followers}
             </h1>
-            <FollowButton color="#000000" extraClass="ml-6" />
+            <div className="ml-6">
+              <FollowButton color="#333333" text="Follow" textColor="white" iconColor="white">
+                <LuGithub />
+              </FollowButton>
+            </div>
           </div>
         </div>
         <div ref={calendarRef} className="w-[60%] [&_div]:scrollbar-hide">
