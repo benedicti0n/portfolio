@@ -104,11 +104,6 @@ const Song: React.FC = () => {
                     </button>
                 </div>
             </div>
-            <LuHeart
-                className="w-4 h-4 absolute top-0 right-0"
-                fill="#ff6b6b"
-                stroke="#ff6b6b"
-            />
         </div>
     );
 };
