@@ -1,33 +1,32 @@
 import Intro from "./Intro"
 import Song from "./Song"
-import { GithubGraph } from "./Github"
+import { Github } from "./Github"
+import Youtube from "./Youtube"
 
 const AboutMyself = () => {
     return (
-        <div className='w-full grid grid-cols-3 gap-4'>
+        <div className='h-full w-full grid grid-cols-5 gap-4'>
             <div className=" col-span-2">
                 <Intro />
-
             </div>
-            <div className="col-span-1">
+            <div className="col-span-1 border-2 border-pink-500">
+                Twitter
+            </div>
+            <div className="col-span-2">
                 <Song />
             </div>
 
-            <div className=" col-span-2">
-                <div className="w-full border-2 border-blue-500 text-black font-[Syne]">
-                    <GithubGraph
-                        username="benedicti0n"
-                        blockMargin={2}
-                        colorPallete={["#ffe5ec", "#ffc2d1", "#ffb3c6", "#ff8fab", "#fb6f92"]}
-                    />
-                </div>
-            </div>
-            <div className="col-span-1">
-
+            <div className="col-span-4 border-2 border-blue-500 text-black font-[Syne]">
+                <Github
+                    username="benedicti0n"
+                    blockMargin={2}
+                    colorPallete={["#ede0d4", "#deab90", "#cd9777", "#b07d62", "#8a5a44"]}
+                />
             </div>
 
-            <div className=" col-span-3">
-                hi
+
+            <div className=" col-span-1">
+                <Youtube username="benedictionAsh03" />
             </div>
         </div>
     )
