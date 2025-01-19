@@ -69,29 +69,29 @@ export const Github = ({
         color="#000"
       />
       <div className="w-full flex ml-4 mt-2">
-        <div className="w-[38%] flex border-2 border-purple-500">
-          <img
+        <div className=" w-fit border-2 border-purple-500">
+          {/* <img
             src={githubData?.avatarUrl}
             alt={`${username}_avatar`}
             className="h-32 rounded-lg"
-          />
-          <div className="ml-2 border-2 border-yellow-500">
-            <h1 className="font-[Sinosans] text-xl">
-              <span className="font-[Signature] text-xs">@</span>
-              {username}
-            </h1>
-            <h1 className="font-[Syne] text-base ml-6">{githubData?.bio}</h1>
-            <h1 className="font-[Syne] text-base ml-6">
-              Followers: {githubData?.followers}
-            </h1>
-            <div className="ml-6">
-              <FollowButton color="#333333" text="Follow" textColor="white" iconColor="white">
-                <LuGithub />
-              </FollowButton>
-            </div>
+          /> */}
+          {/* <div className="ml-2 border-2 border-yellow-500"> */}
+          <h1 className="font-[Sinosans] text-xl">
+            <span className="font-[Signature] text-xs">@</span>
+            {username}
+          </h1>
+          <h1 className="font-[Syne] text-base">{githubData?.bio}</h1>
+          <h1 className="font-[Syne] text-base">
+            Followers: {githubData?.followers}
+          </h1>
+          <div className="border-2 border-pink-500">
+            <FollowButton color="#333333" text="Follow" textColor="white" iconColor="white">
+              <LuGithub />
+            </FollowButton>
           </div>
+          {/* </div> */}
         </div>
-        <div ref={calendarRef} className="w-[60%] [&_div]:scrollbar-hide">
+        <div ref={calendarRef} className="pl-4 w-[75%] [&_div]:scrollbar-hide">
           <ActivityCalendar
             data={contribution}
             maxLevel={4}
